@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>@static</string>
 	<key>scope</key>
-	<string>comment.block.documentation.js</string>
+	<string>source.js comment.block</string>
 	<key>tabTrigger</key>
 	<string>sta</string>
 	<key>uuid</key>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>@constructor</string>
 	<key>scope</key>
-	<string>comment.block.documentation.js</string>
+	<string>source.js comment.block</string>
 	<key>tabTrigger</key>
 	<string>con</string>
 	<key>uuid</key>
