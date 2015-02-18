@@ -8,8 +8,13 @@ This bundle provides tools for running and writing comments with [JsDoc Toolkit]
 
 ## Installation
 
-Install from Github:
+### Installation: Recent TextMate (version 2)
+    cd ~/Downloads/
+    git clone git@github.com:rootworkit/JsDoc-Toolkit.tmbundle.git
 
+Double-click the bundle in the Finder and click Install when the TextMate dialog pops up.
+
+### Installation : Older TextMate (version 1)
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/csaccheri/JsDoc-Toolkit.tmbundle.git "JsDoc Toolkit.tmbundle"
@@ -18,6 +23,14 @@ Install from Github:
 Or use [GetBundles][getb] (search for "JsDoc Toolkit").
 
 **Important!** You must have Java installed to run JsDoc Toolkit.
+
+### Installation Troubleshooting
+If the bundle fails to install, especially when upgrading from an older version, manually remove old versions of the bundle:
+
+    cd ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles/
+    rm -rf JsDoc-Toolkit*.tmbundle
+    cd ../../Bundles/
+    rm -rf JsDoc\ Toolkit.tmbundle/    
 
 ## Usage
 
